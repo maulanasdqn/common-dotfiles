@@ -20,6 +20,7 @@
     iterm2
     flameshot
     prettierd
+    zoom-us
     nodePackages.yarn
     nodePackages.pnpm
   ];
