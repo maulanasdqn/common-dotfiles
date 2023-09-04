@@ -20,14 +20,14 @@ vim.cmd([[
 ]])
 
 o.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50" -- block in normal and beam cursor in insert mode
-o.wrap = true
+o.wrap = false
 o.updatetime = 300 -- faster completion
 o.timeoutlen = 400 -- time to wait for a mapped sequence to complete ()
 o.ttimeoutlen = 0 -- Time in milliseconds to wait for a key code sequence to complete
 o.backup = false -- creates a backup file
 o.swapfile = false -- enable/disable swap file creation
 o.dir = fn.stdpath("data") .. "/swp" -- swap file directory
-o.undofile = true -- enable/disable undo file creation
+o.undofile = false -- enable/disable undo file creation
 o.undodir = fn.stdpath("data") .. "/undodir" -- set undo directory
 o.history = 500 -- Use the 'history' option to set the number of lines from command mode that are remembered.
 o.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
@@ -52,7 +52,7 @@ o.scrolloff = 3 -- Minimal number of screen lines to keep above and below the cu
 o.sidescrolloff = 5 -- The minimal number of columns to scroll horizontally
 o.hlsearch = true -- highlight all matches on previous search pattern
 o.ignorecase = true -- ignore case in search patterns
-o.foldenable = false -- disable folding; enable with zi
+o.foldenable = true -- disable folding; enable with zi
 o.foldmethod = "syntax" -- foldmethod set to syntax
 o.foldexpr = "nvim_treesitter#foldexpr()" -- o.listchars = "eol:¬,tab:>·,trail:~,extends:>,precedes:<"
 o.listchars = "eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣"
