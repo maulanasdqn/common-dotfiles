@@ -1,3 +1,1 @@
-{
-  imports = [ ./common ./git ./nvim ./zsh ./packages ./direnv ./tmux ./yabai ];
-}
+{ imports = [ ./common ./git ./nvim ./zsh ./packages ./direnv ./tmux ]; }
