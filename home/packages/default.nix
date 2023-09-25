@@ -13,11 +13,7 @@
     bat
     luajit
     jq
-    postman
-    discord
-    slack
     prettierd
-    zoom-us
-    google-chrome
+    bun
   ];
 }
