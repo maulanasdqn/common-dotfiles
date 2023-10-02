@@ -12,16 +12,13 @@
     htop
     bat
     luajit
-    nodejs
     jq
     postman
-    discord
+    bun
     slack
     iterm2
     flameshot
     prettierd
     zoom-us
-    nodePackages.yarn
-    nodePackages.pnpm
   ];
 }

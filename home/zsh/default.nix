@@ -16,6 +16,7 @@
     export PATH="$HOME/.local/bin:$PATH"
     export FLYCTL_INSTALL="/home/ms/.fly"
     export PATH="$FLYCTL_INSTALL/bin:$PATH"
+    export NIXPKGS_ALLOW_INSECURE=1
     source ~/.config/dotfiles/home/zsh/z.sh
     eval "$(starship init zsh)"
   '';
