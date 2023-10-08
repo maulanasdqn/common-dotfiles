@@ -13,7 +13,6 @@
     bat
     luajit
     jq
-    postman
     bun
     slack
     iterm2
