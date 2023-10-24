@@ -19,5 +19,6 @@
     flameshot
     prettierd
     zoom-us
+    discord
   ];
 }

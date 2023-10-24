@@ -1,1 +1,4 @@
-{ imports = [ ./common ./git ./nvim ./zsh ./packages ./direnv ./tmux ]; }
+{
+  imports =
+    [ ./common ./git ./nvim ./zsh ./packages ./direnv ./tmux ./homebrew ];
+}

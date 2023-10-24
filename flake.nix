@@ -17,7 +17,7 @@
           config = { allowUnfree = true; };
           system = "aarch64-darwin";
         };
-        modules = [ ./home ./system ];
+        modules = [ ./home ];
       };
     };
   };
