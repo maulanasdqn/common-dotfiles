@@ -14,11 +14,10 @@
     export NODE_PATH=~/.npm-packages/lib/node_modules
     export XKB_DEFAULT_OPTIONS=caps:escape
     export PATH="$HOME/.local/bin:$PATH"
-    export FLYCTL_INSTALL="/home/ms/.fly"
-    export PATH="$FLYCTL_INSTALL/bin:$PATH"
     export NIXPKGS_ALLOW_INSECURE=1
-    source ~/.config/dotfiles/home/zsh/z.sh
+    export ANDROID_HOME="${config.xdg.dataHome}/Library/Android/sdk"
     eval "$(starship init zsh)"
+    source ~/.config/dotfiles/home/zsh/z.sh
   '';
 
   programs.zsh.shellAliases.update = "nix flake update ~/.config/dotfiles";

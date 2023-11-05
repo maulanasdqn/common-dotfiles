@@ -6,7 +6,7 @@ expr_options = {noremap = true, expr = true, silent = true}
 map("n", "<Space>", "<NOP>", default_options)
 vim.g.mapleader = " "
 
-map("n", "S", "<cmd>Telescope find_files<CR>", {noremap = true})
+map("n", "S", "<cmd>Telescope live_grep<CR>", {noremap = true})
 map("n", "T", "<cmd>Telescope buffers<CR>", {noremap = true})
 map("n", "C", "<cmd>NvimTreeToggle<CR>", {noremap = true})
 map("n", "t", "<cmd>Lspsaga term_toggle<CR>", {noremap = true})

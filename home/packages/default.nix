@@ -15,9 +15,11 @@
     jq
     bun
     slack
+    ripgrep
     iterm2
     flameshot
     prettierd
     zoom-us
+    openjdk
   ];
 }
