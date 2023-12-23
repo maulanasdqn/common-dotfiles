@@ -1,4 +1,13 @@
 {
-  imports =
-    [ ./common ./git ./nvim ./zsh ./packages ./direnv ./tmux ./starship ];
+  imports = [
+    ./common
+    ./git
+    ./nvim
+    ./zsh
+    ./packages
+    ./direnv
+    ./tmux
+    ./starship
+    ./foot
+  ];
 }
