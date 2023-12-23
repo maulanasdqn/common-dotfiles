@@ -2,24 +2,17 @@
 
 {
   home.packages = with pkgs; [
-    docker
     neofetch
     android-tools
     unzip
     wget
     unrar
-    lsd
+    eza
     htop
     bat
     luajit
     nodejs
+    bun
     jq
-    postman
-    discord
-    slack
-    iterm2
-    flameshot
-    nodePackages.yarn
-    nodePackages.pnpm
   ];
 }
