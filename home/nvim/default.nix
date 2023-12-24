@@ -65,12 +65,11 @@
         plugin = rose-pine;
         type = "lua";
       }
-
-      #{
-      #  plugin = lualine-nvim;
-      #  type = "lua";
-      #  config = "${builtins.readFile ./lua/config/lualine.lua}";
-      #}
+      {
+        plugin = lualine-nvim;
+        type = "lua";
+        config = "${builtins.readFile ./lua/config/lualine.lua}";
+      }
       {
         plugin = lspsaga-nvim;
         type = "lua";
@@ -110,11 +109,11 @@
         plugin = telescope-file-browser-nvim;
         type = "lua";
       }
-      #{
-      #  plugin = indent-blankline-nvim;
-      #  type = "lua";
-      #  config = "${builtins.readFile ./lua/config/indent.lua}";
-      #}
+      {
+        plugin = indent-blankline-nvim;
+        type = "lua";
+        config = "${builtins.readFile ./lua/config/indent.lua}";
+      }
       {
         plugin = nvim-lspconfig;
         type = "lua";

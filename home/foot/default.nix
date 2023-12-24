@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        font = "Hack Nerd Font Mono:size=16:line-height=16px";
+        font = "Hack Nerd Font Mono:size=14:line-height=16px";
         pad = "12x12";
       };
       colors = {

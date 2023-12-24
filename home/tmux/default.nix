@@ -6,7 +6,7 @@
     sensible
     yank
     {
-      plugin = yank;
+      plugin = dracula;
       extraConfig = ''
         set -g default-terminal "xterm-256color"
         set -g mouse on

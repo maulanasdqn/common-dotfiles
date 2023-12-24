@@ -9,5 +9,6 @@
     ./tmux
     ./starship
     ./foot
+    ./wofi
   ];
 }
