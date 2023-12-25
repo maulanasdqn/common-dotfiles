@@ -14,5 +14,6 @@
     nodejs
     bun
     jq
+    wofi
   ];
 }

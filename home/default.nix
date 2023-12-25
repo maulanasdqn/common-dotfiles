@@ -10,5 +10,7 @@
     ./starship
     ./foot
     ./wofi
+    ./dunst
+    ./waybar
   ];
 }
