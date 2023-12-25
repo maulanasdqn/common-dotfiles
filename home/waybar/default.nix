@@ -1,7 +1,7 @@
 {
+  home.file.".config/waybar/style.css".source = ./style.css;
   programs.waybar = {
     enable = true;
-    style = builtins.readFile "./style.css";
     settings = {
       mainBar = {
         layer = "top";
