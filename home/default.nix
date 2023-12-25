@@ -12,5 +12,6 @@
     ./wofi
     ./dunst
     ./waybar
+    ./hyprland
   ];
 }
