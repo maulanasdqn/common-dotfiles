@@ -14,6 +14,10 @@
     nodejs
     bun
     jq
-    wofi
+    grimblast
+    telegram-desktop
+    chromium
+    rofi
+    ferdium
   ];
 }

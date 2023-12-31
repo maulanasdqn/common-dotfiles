@@ -6,8 +6,9 @@
     sensible
     yank
     {
-      plugin = dracula;
+      plugin = yank;
       extraConfig = ''
+        set -g status-style 'bg=#333333 fg=#5eacd3'
         set -g default-terminal "xterm-256color"
         set -g mouse on
       '';

@@ -4,7 +4,7 @@
     settings = {
       main = {
         font = "Hack Nerd Font Mono:size=14:line-height=16px";
-        pad = "12x12";
+        pad = "1x1";
       };
       colors = {
         foreground = "d9e0ee";

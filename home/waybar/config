@@ -46,15 +46,15 @@
     "network": {
       "interface": "wlp1s0f0",
       "format": "{ifname}",
-      "format-wifi": "<span color='#b4befe'> </span>{essid}",
-      "format-ethernet": "{ipaddr}/{cidr} ",
+      "format-wifi": "<span color='#b4befe'>  </span>{essid}",
       "format-disconnected": "<span color='#b4befe'>󰖪 </span>No Network",
       "tooltip": false,
     },
+
     "battery": {
-      "format": "<span color='#b4befe'>{icon}</span> {capacity}%",
-      "format-icons": ["", "", "", "", "", "", "", "", "", ""],
-      "format-charging": "<span color='#b4befe'></span> {capacity}%",
+      "format": "<span color='#b4befe'>{icon} </span> {capacity}%",
+      "format-icons": ["", "", "", "", ""],
+      "format-charging": "<span color='#b4befe'></span> {capacity}%",
       "tooltip": false,
     },
 }
