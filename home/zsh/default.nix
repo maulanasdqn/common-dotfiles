@@ -11,13 +11,14 @@
   programs.zsh.initExtra = ''
     export PATH=~/.npm-packages/bin:$PATH
     export PATH=~/.grader/bin:$PATH
+    export PATH=~/.local/share/gem/ruby/bin:$PATH
+    export PATH=~/.nix-profile/bin:/nix/var/nix/profiles/default/bin:$PATH
     export NODE_PATH=~/.npm-packages/lib/node_modules
     export XKB_DEFAULT_OPTIONS=caps:escape
     export PATH="$HOME/.local/bin:$PATH"
     export NIX_REMOTE=daemon
-    export PATH="$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin:$PATH"
-    export NIX_PATH="nixpkgs=/nix/var/nix/profiles/per-user/$USER/channels/nixpkgs:/nix/var/nix/profiles/per-user/$USER/channels"
-    export NIX_PROFILES="/nix/var/nix/profiles/per-user/$USER/channels"
+    export NIX_PATH=nixpkgs=/nix/var/nix/profiles/per-user/$USER/channels/nixpkgs:/nix/var/nix/profiles/per-user/$USER/channels
+    export NIX_PROFILES=/nix/var/nix/profiles/per-user/$USER/channels
     export NODE_OPTIONS=--max_old_space_size=4096        
     source ~/.config/dotfiles/home/zsh/z.sh
   '';

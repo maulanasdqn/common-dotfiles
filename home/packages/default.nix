@@ -18,6 +18,6 @@
     telegram-desktop
     chromium
     rofi
-    ferdium
+    fpm
   ];
 }
