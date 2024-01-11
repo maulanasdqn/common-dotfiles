@@ -20,6 +20,7 @@
     export NIX_PATH=nixpkgs=/nix/var/nix/profiles/per-user/$USER/channels/nixpkgs:/nix/var/nix/profiles/per-user/$USER/channels
     export NIX_PROFILES=/nix/var/nix/profiles/per-user/$USER/channels
     export NODE_OPTIONS=--max_old_space_size=4096        
+    export DIRENV_LOG_FORMAT=
     source ~/.config/dotfiles/home/zsh/z.sh
   '';
 
