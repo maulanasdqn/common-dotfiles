@@ -3,19 +3,18 @@
   font-family: "Hack Nerd Font", "Hack Nerd Font Mono";
   font-size: 16px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-  min-height: 45px;
+  min-height: 18px;
 }
 
 window#waybar {
-  background: transparent;
+  background: #232136;
 }
 
-#custom-arch,
 #workspaces {
   border-radius: 10px;
-  background-color: #11111b;
+  background-color: #232136;
   color: #b4befe;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-right: 15px;
   padding-top: 1px;
   padding-left: 10px;
@@ -29,7 +28,7 @@ window#waybar {
 }
 
 #workspaces button {
-  background: #11111b;
+  background: #232136;
   color: #b4befe;
 }
 
@@ -40,12 +39,12 @@ window#waybar {
 #network,
 #battery {
   border-radius: 10px;
-  background-color: #11111b;
+  background-color: #232136;
   color: #cdd6f4;
-  margin-top: 15px;
+  margin-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 #backlight,

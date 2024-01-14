@@ -12,6 +12,8 @@
     bat
     luajit
     nodejs
+    nodePackages.pnpm
+    nodePackages.yarn
     bun
     jq
     grimblast

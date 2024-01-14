@@ -27,7 +27,7 @@
   programs.zsh.shellAliases.u = "nix flake update ~/.config/dotfiles";
   programs.zsh.shellAliases.b =
     "nix run ~/.config/dotfiles switch -- --flake ~/.config/dotfiles --impure";
-  programs.zsh.shellAliases.clean = "sudo nix-collect-garbage -d";
+  programs.zsh.shellAliases.clean = "nix-collect-garbage -d";
   programs.zsh.shellAliases.ls = "eza";
   programs.zsh.shellAliases.lsa = "eza -a";
   programs.zsh.shellAliases.ll = "eza -l";

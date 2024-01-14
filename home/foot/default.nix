@@ -4,29 +4,28 @@
     settings = {
       main = {
         font = "Hack Nerd Font Mono:size=14:line-height=16px";
-        pad = "1x1";
+        pad = "4x4";
       };
       colors = {
-        foreground = "d9e0ee";
-        background = "292a37";
-        ## Normal/regular colors (color palette 0-7)
-        regular0 = "303241"; # black
-        regular1 = "ec6a88";
-        regular2 = "3fdaa4";
-        regular3 = "efb993";
-        regular4 = "3fc6de";
-        regular5 = "b771dc";
-        regular6 = "6be6e6";
-        regular7 = "d9e0ee";
+        background = "232136";
+        foreground = "e0def4";
+        regular0 = "393552"; # black (Overlay)
+        regular1 = "eb6f92"; # red (Love)
+        regular2 = "3e8fb0"; # green (Pine)
+        regular3 = "f6c177"; # yellow (Gold)
+        regular4 = "9ccfd8"; # blue (Foam)
+        regular5 = "c4a7e7"; # magenta (Iris)
+        regular6 = "ea9a97"; # cyan (Rose)
+        regular7 = "e0def4"; # white (Text)
 
-        bright0 = "393a4d"; # bright black
-        bright1 = "e95678"; # bright red
-        bright2 = "29d398"; # bright green
-        bright3 = "efb993"; # bright yellow
-        bright4 = "26bbd9";
-        bright5 = "b072d1"; # bright magenta
-        bright6 = "59e3e3"; # bright cyan
-        bright7 = "d9e0ee"; # bright white
+        bright0 = "393552"; # bright black (Overlay)
+        bright1 = "eb6f92"; # bright red (Love)
+        bright2 = "3e8fb0"; # bright green (Pine)
+        bright3 = "f6c177"; # bright yellow (Gold)
+        bright4 = "9ccfd8"; # bright blue (Foam)
+        bright5 = "c4a7e7"; # bright magenta (Iris)
+        bright6 = "ea9a97"; # bright cyan (Rose)
+        bright7 = "e0def4"; # bright white (Text)
       };
     };
   };
