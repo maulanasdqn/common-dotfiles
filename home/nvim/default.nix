@@ -66,6 +66,11 @@
         type = "lua";
       }
       {
+        plugin = noice-nvim;
+        type = "lua";
+        config = "${builtins.readFile ./lua/config/noice.lua}";
+      }
+      {
         plugin = lualine-nvim;
         type = "lua";
         config = "${builtins.readFile ./lua/config/lualine.lua}";
