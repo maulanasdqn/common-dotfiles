@@ -4,6 +4,7 @@ local fn = vim.fn
 
 vim.cmd("colorscheme rose-pine")
 vim.cmd("set background=dark")
+vim.cmd("set mouse=")
 vim.cmd("au InsertEnter * set nornu")
 vim.cmd("au InsertLeave * set rnu")
 
@@ -31,7 +32,7 @@ o.fileencoding = "utf-8" -- the encoding written to a file
 o.conceallevel = 0 -- so that `` is visible in markdown files
 o.number = true -- set numbered lines
 o.relativenumber = true -- set relative numbered lines
-o.cmdheight = 1 -- space for displaying messages/commands
+o.cmdheight = 0 -- space for displaying messages/commands
 o.showmode = false -- we don't need to see things like -- INSERT -- anymore
 o.laststatus = 2 --  The value of this option influences when the last window will have a status line (2 always)
 o.smartcase = true -- smart case

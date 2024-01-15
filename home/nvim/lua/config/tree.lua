@@ -11,7 +11,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 local HEIGHT_RATIO = 0.8
-local WIDTH_RATIO = 0.5
+local WIDTH_RATIO = 0.3
 
 nvimtree.setup({
   disable_netrw = true,
