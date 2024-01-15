@@ -6,6 +6,7 @@
     ./zsh
     ./packages
     ./direnv
+    ./devenv
     ./tmux
     ./starship
     ./foot
